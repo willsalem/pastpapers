@@ -1,0 +1,130 @@
+/* Conteneur principal pour centrer le contenu verticalement et horizontalement */
+.JolivetContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+}
+
+/* Titre de la page de connexion */
+.JolivetTitle {
+  margin-bottom: 20px;
+  color: #333;
+  font-size: 24px;
+}
+
+/* Formulaire de connexion */
+.JolivetForm {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 300px;
+}
+
+/* Champs de saisie */
+.JolivetInput {
+  width: 92%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+/* Bouton de soumission */
+.JolivetButton {
+  width: 100%;
+  padding: 10px;
+  background-color: #ffc400;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.JolivetButton:hover {
+  background-color: #ffffff;
+  color: #007bff;
+  border: solid 1px #007bff;
+}
+
+/* Bouton de lien pour s'inscrire */
+.RomsiathLinkButton {
+  margin-top: 10px;
+  background-color: #007bff;
+  border: none;
+  color: #ffffff;
+  cursor: pointer;
+  font-size: 14px;
+  text-decoration: none;
+  width: 100%;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.RomsiathLinkButton:hover {
+  background-color: #0056b3;
+}
+
+.back-arrow {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  font-size: 24px;
+  cursor: pointer;
+  color: #007bff;
+}
+
+.back-arrow:hover {
+  color: #0056b3;
+}
+
+/* Ajoutez ce CSS à votre fichier login.css */
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-content {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.modal-button {
+  margin: 10px;
+  padding: 10px 20px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.modal-close-button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  border: none;
+  background-color: #6c757d;
+  color: white;
+  cursor: pointer;
+  border-radius: 4px;
+}
+

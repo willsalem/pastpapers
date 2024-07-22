@@ -1,0 +1,43 @@
+.filter-container {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.61);
+    width: 300px;
+    margin: 20px;
+    margin-top: 90px;
+  }
+  
+  .filter-title {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5em;
+    color: #25353b;
+    margin-bottom: 20px;
+  }
+  
+  .filter-field {
+    margin-bottom: 15px;
+  }
+  
+  .filter-label {
+    display: block;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1em;
+    color: #343537;
+    margin-bottom: 5px;
+  }
+  
+  .filter-input {
+    width: 100%;
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  .filter-input:focus {
+    border-color: #4e60ff;
+    outline: none;
+  }
+  

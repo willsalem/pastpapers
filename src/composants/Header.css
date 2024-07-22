@@ -1,0 +1,13 @@
+.header {
+    background-color: #000000;
+    padding: 0.5px;
+    text-align: left;
+    margin-left: 250px; /* Ajustez en fonction de la largeur de la sidebar */
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+  }
+
+  .header h3 {
+    margin-left: 20px;
+  }
+  

@@ -1,0 +1,22 @@
+
+  .footer {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    position: relative;
+    width: 100%;
+  }
+  
+  .footer-content {
+    margin: 0 auto;
+  }
+  
+  .footer p {
+    margin: 5px 0;
+  }
+  
+  .footer-content span {
+    color: #4e60ff;
+  }
+  

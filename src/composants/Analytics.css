@@ -1,0 +1,48 @@
+.analytics-container {
+  display: contents;
+  justify-content: space-around;
+  margin-top: 10px;
+}
+
+.analytics-card {
+  background-color: #329cff;
+  border-radius: 10px;
+  width: 150px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+  color: #ffffff;
+}
+
+.analytics-card:hover {
+  transform: translateY(-5px);
+}
+
+.analytics-icon {
+  font-size: 2em;
+  margin-bottom: 10px;
+  color: black;
+}
+
+.analytics-value {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.analytics-label {
+  font-size: 0.9em;
+  color: #ffffff;
+}
+
+
+
+.chart-container {
+  width: 100%;
+  max-width: 900px;
+  margin: 50px auto;
+  margin-left: 50px;
+  padding: 50px;
+}
+

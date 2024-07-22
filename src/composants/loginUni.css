@@ -1,0 +1,78 @@
+.SamiRath {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+}
+
+.RathSamiForm {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.RathSamiForm h2 {
+  margin-bottom: 20px;
+  color: #333333;
+}
+
+.RathInput {
+  width: 92%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.RathButton {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.RathButton:hover {
+  background-color: #0056b3;
+}
+
+.RathLinkButton {
+  margin-top: 10px;
+  background: none;
+  border: none;
+  color: #ffffff;
+  cursor: pointer;
+  font-size: 14px;
+  text-decoration: none;
+  padding: 10px;
+  width: 100%;
+  background-color: #007bff;
+  border-radius: 4PX;
+}
+
+.RathLinkButton:hover {
+  background-color: #0056b3;
+}
+
+.back-arrow {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  font-size: 24px;
+  cursor: pointer;
+  color: #007bff;
+}
+
+.back-arrow:hover {
+  color: #0056b3;
+}

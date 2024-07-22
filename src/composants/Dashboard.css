@@ -1,0 +1,21 @@
+.dashboard {
+    margin-left: 250px; /* Ajustez en fonction de la largeur de la sidebar */
+    padding: 20px;
+  }
+  
+  .stats-cards {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+  }
+  
+  .card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    flex: 1;
+    margin: 0 10px;
+    text-align: center;
+  }
+  

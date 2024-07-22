@@ -1,0 +1,190 @@
+/* Styles existants */
+.menu {
+  display: flex;
+  background-color: rgb(255, 255, 255); /* Fond blanc */
+  padding: 10px 20px;
+  justify-content: space-between;
+  align-items: center;
+  color: black; /* Texte noir */
+  position: fixed;
+  z-index: 1000;
+  width: 100%;
+  top: 0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Ombre légère */
+  transition: transform 0.3s ease-in-out;
+}
+
+.menu--hidden {
+  transform: translateY(-100%);
+}
+
+.menu-items {
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+}
+
+.menu-item {
+  cursor: pointer;
+  margin-right: 20px;
+  text-decoration: none;
+  color: black;
+  font-weight: bold; /* Texte en gras */
+}
+
+.menu-item:hover {
+  color: #007bff; /* Couleur du texte au survol */
+}
+
+.menu-item.active {
+  color: #007bff; /* Couleur du texte actif */
+}
+
+.search-icon {
+  margin-left: auto;
+  cursor: pointer;
+  color: black;
+  font-size: 1.5em;
+  margin-right: 220px;
+}
+
+img.logo {
+  margin-left: 20px;
+}
+
+.user-icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 100px;
+}
+
+.user-initials {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #007bff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-weight: bold;
+  font-size: 1rem;
+  margin-right: 20px;
+}
+
+.default-user-icon {
+  font-size: 1.5rem;
+  color: black;
+  cursor: pointer;
+  margin-left: -200px;
+}
+
+.default-user-icon:hover {
+  color: #0056b3;
+}
+
+.search-bar {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: #081027;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  position: absolute;
+  top: 60px;
+  right: 250px;
+}
+
+.search-input {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.search-input span {
+  margin-right: 10px;
+  font-size: 14px;
+  color: #ffffff;
+}
+
+.search-input input {
+  outline: none;
+  padding: 5px;
+  font-size: 14px;
+}
+
+.xill {
+  margin-left: 7.9px;
+}
+
+.search-input input::placeholder {
+  color: #aaa;
+}
+
+.search-bar button {
+  align-self: flex-end;
+  background-color: #007bff;
+  border: none;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.search-bar button:hover {
+  background-color: #0056b3;
+}
+
+.user-container {
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+  cursor: pointer;
+  color: black;
+}
+
+.user-container .default-user-icon {
+  margin-right: 5px; /* Espace entre l'icône et le texte */
+}
+
+.user-container .user-text {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #000000;
+}
+
+.user-text:hover {
+  color: #1a16ff;
+}
+
+/* Nouveau style pour les initiales de l'utilisateur */
+.user-initials {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #007bff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-weight: bold;
+  font-size: 1rem;
+  margin-right: 20px;
+}
+
+/* Styles supplémentaires pour améliorer l'apparence des initiales */
+.user-initials-container {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.user-initials-container span {
+  margin-left: 10px;
+  color: black;
+  font-weight: bold;
+  font-size: 1rem;
+}

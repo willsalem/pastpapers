@@ -1,0 +1,54 @@
+/* Solutions.css */
+.solutions-section {
+  padding: 30px;
+  background-color: #f4f4f4;
+  color: #fff;
+  text-align: justify;
+  margin-top: 40px;
+}
+
+.section-title {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  color: rgb(89, 106, 255);
+  text-align: center; /* Center the title */
+}
+
+.solutions-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.solution-card {
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 15px 20px;
+  width: 400px;
+  height: 150px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s;
+  display: flex; /* Enable flexbox for the card */
+  align-items: center; /* Center items vertically */
+}
+
+.solution-icon {
+  font-size: 1.5em;
+  margin-right: 10px; /* Adjust spacing between icon and title */
+  margin-top: -80px;
+}
+
+.solution-title {
+  font-size: 15px;
+  margin-bottom: 10px;
+  color: #000000;
+  display: flex;
+  align-items: center; /* Center items vertically */
+}
+
+.solution-description {
+  font-size: 13px;
+  color: #000000;
+  margin-top: 10px; /* Adjust margin for better spacing */
+}

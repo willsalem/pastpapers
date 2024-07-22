@@ -1,0 +1,74 @@
+.Wazi-container {
+    background: #ffffff;
+    
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgb(58, 58, 58);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+    margin: auto;
+    margin-top: 50px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.Wazi-title {
+    color: #333;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.Salima-form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Salima-inputGroup {
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+.Salima-inputGroup input {
+    width: calc(100% - 20px);
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: border-color 0.3s;
+}
+
+.Salima-inputGroup input:focus {
+    border-color: #0056b3;
+    outline: none;
+}
+
+.Sultan-button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.Sultan-button:hover {
+    background-color: #0056b3;
+}
+
+
+.back-arrow {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-size: 24px;
+    cursor: pointer;
+    color: #007bff;
+  }
+  
+  .back-arrow:hover {
+    color: #0056b3;
+  }
+  

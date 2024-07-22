@@ -1,0 +1,73 @@
+/* signup.css */
+
+.WillSalem {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(to right, #6a11cb, #2575fc);
+  font-family: 'Arial', sans-serif;
+}
+
+.Willlllll {
+  text-align: center;
+  color: white;
+  margin-bottom: 20px;
+  
+}
+
+.SalemWillForm {
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.WillInput,
+.WillInputFile,
+.WillButton {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.WillInput:focus,
+.WillInputFile:focus {
+  border-color: #2575fc;
+  outline: none;
+}
+
+.WillButton {
+  background: #2575fc;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background 0.3s;
+  font-size: 16px;
+}
+
+.WillButton:hover {
+  background: #6a11cb;
+}
+
+.back-arrow {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  font-size: 24px;
+  cursor: pointer;
+  color: #000000;
+}
+
+.back-arrow:hover {
+  color: #ffffff;
+}
+
